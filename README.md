@@ -16,7 +16,7 @@ For a quick start for [Sapper](https://sapper.svelte.dev/)
 ### Installation
 ```sh
 $ git clone git@github.com:whthT/sapper-quick-start.git
-$ ch sapper-quick-start
+$ cd sapper-quick-start
 $ yarn
 ```
 
