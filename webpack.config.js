@@ -17,12 +17,15 @@ const mainFields = ['svelte', 'module', 'browser', 'main']
 
 const cssLoaderOptions = {
   modules: {
-    localIdentName: '[hash:2]',
-    getLocalIdent: createMinifier({
-      prefix: '_'
-    })
+    localIdentName: '[path][name]__[local]--[hash:base64:5]'
   },
   importLoaders: true
+}
+
+if (!dev) {
+  cssLoaderOptions.modules.getLocalIdent = createMinifier({
+    prefix: '_'
+  })
 }
 
 module.exports = {
