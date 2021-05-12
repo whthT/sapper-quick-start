@@ -27,7 +27,7 @@
     "mini-css-extract-plugin": "^0.8.0",
     "nprogress": "^0.2.0",
     "polka": "next",
-    "postcss": "^7.0.21",
+    "postcss": "^8.2.10",
     "postcss-custom-properties": "^9.0.2",
     "postcss-discard-comments": "^4.0.2",
     "postcss-loader": "^3.0.0",
